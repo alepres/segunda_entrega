@@ -1,0 +1,304 @@
+/*Proyecto: Artemisa piedras - Emprendimiento*/
+/*Alejandra Presidente*/
+/*Estilos genéricos*/
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+text-align: center;
+}
+h2{
+text-align: center;
+}
+p {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+}
+
+/*Header título*/
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin: 5px;
+  
+}
+/*Menú de navegacion*/
+.navegacionflex {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: white;
+  height: 70px;
+  padding: 0 30px;
+}
+.navegacionflex h1 {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+.navegacionflex ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navegacionflex a {
+  color: #3f3f3f;
+  padding: 9px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.navegacionflex a:hover {
+  color: grey;
+  border-bottom: 3px solid grey;
+}
+
+/*Blog bootstrap*/
+.blog-header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+
+/*Album bootstrap*/
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+
+
+/*Footer o Pie de página*/
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+/*Formulario de contacto*/
+form {
+
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 20px;
+}
+
+label {
+  
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+}
+
+input, textarea {
+  font-size: 12px;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 130px;
+}
+
+.button {
+  padding-right: 90px; 
+}
+
+button {
+  margin-left: 200px;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+/*Páginas*/
+pagina{
+  overflow: visible;
+  display: grid;
+  grid-template-columns: 100%; 
+  height: 100vh;
+  color: rgb(46, 45, 45);
+  text-align: justify;
+  
+}
+.pagina > h1{
+font-size: 35px;
+font-weight: 700;
+color: #553c9ab9;
+}
+.pagina > p {
+  font-size: 20px;
+  color: #3f3f3f ;
+  margin: 50px;
+  background-color: rgba(238, 236, 236, 0.671) ;
+  padding: 30px;
+}
+
+.pagina > div  {
+  font-size: 20px;
+  font-weight: bold;
+  color: #8574c0 ;
+  margin: 50px;
+  background-color: rgba(238, 236, 236, 0.671) ;
+  padding: 30px;
+}
+.pagina > div >  p {
+  font-size: 15px;
+  color: #3f3f3f;
+  text-align: left;
+  
+  }
+.pagina> img{
+  width: 100%;
+  height: 450px;
+}
